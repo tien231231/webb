@@ -1,0 +1,61 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+    background-color: 
+    #9a89b8;
+    color:#ffffffb8;
+  }
+  
+  .trigger:hover {
+    color: white;
+  }
+  
+  .logo {
+    
+    
+    /* background: rgba(255, 255, 255, 0.3); */
+  }
+.ant-layout-header{
+    display: flex;
+    justify-content: flex-start;
+}
+.ant-layout-content{
+    display: flex;
+    margin:0;
+    padding:0;
+    
+}
+.ant-menu-item:last-child{
+    
+    margin-top: 22rem;
+    margin-bottom: 1rem;
+    
+
+    
+   
+    
+}
+.ant-layout-sider{
+  background-color: 
+  #507b89!important;
+  
+}
+.ant-menu{
+  background-color:  
+  #507b89!important;
+  
+
+
+
+}
+.ant-menu-item-selected{
+ background-color: #31295b !important ;
+ /* ưu tiên hơn đoạn mã được định nghĩa trong antd */
+}
+.ant-layout-header{
+  border-bottom: 1px solid #8469b3;
+  overflow: hidden;
+}

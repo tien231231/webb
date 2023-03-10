@@ -1,0 +1,29 @@
+:root {
+  background: radial-gradient(
+    circle at 2.4% 35.1%,
+    rgb(129, 211, 225) 0%,
+    rgb(239, 145, 236) 90%
+  );
+  background-repeat: repeat-y;
+  background-position: 0 0;
+}
+body {
+  text-transform: uppercase;
+  overflow: hidden;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  overflow: hidden;
+
+  margin: 20px;
+  border-radius: 30px;
+}

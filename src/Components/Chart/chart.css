@@ -1,0 +1,29 @@
+
+.chart{
+    padding: 0;
+    margin:0;
+    
+    display: flex;
+    
+    background: radial-gradient(circle at 2.4% 35.1%, rgb(129, 211, 225) 0%, rgb(239, 145, 236) 90%);
+    
+    justify-content: center;
+}
+.listtt{
+    padding: 5px;
+    
+}
+
+  
+  .ant-card {
+    margin-top:16px;
+    background: radial-gradient(circle at 2.4% 35.1%, rgb(129, 211, 225) 0%, rgb(239, 145, 236) 90%);
+    border: 1px outset #25677f;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+  }
+
+.ant-card-body{
+  height: 128px;
+  
+}
