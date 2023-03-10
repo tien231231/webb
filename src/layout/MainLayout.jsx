@@ -18,7 +18,7 @@ import {
   LoginOutlined,
 } from "@ant-design/icons";
 import { Input, Layout, Menu, theme, Space } from "antd";
-import { CustomLogo } from "../Components/CustomLogo/CustomLogo";
+
 import { Dropdown } from "../Components/Dropdown/Dropdown";
 
 const { Header, Sider, Content } = Layout;
@@ -45,7 +45,7 @@ const MainLayout = () => {
       <Layout>
         <Sider background="#33333" trigger={null} collapsible collapsed={collapsed}>
           <div className="logo">
-            <CustomLogo />
+            
           </div>
           <Menu
             
